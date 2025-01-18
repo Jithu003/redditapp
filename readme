@@ -1,0 +1,28 @@
+# Reddit Bot with Groq AI
+
+## Overview
+This bot generates daily Reddit posts and comments using Groq AI.
+
+## Setup
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd <repository_folder>
+
+    Install dependencies:
+
+pip install -r requirements.txt
+
+Configure environment variables:
+
+    Create a .env file with the following:
+
+    REDDIT_CLIENT_ID=<your_reddit_client_id>
+    REDDIT_CLIENT_SECRET=<your_reddit_client_secret>
+    REDDIT_USERNAME=<your_reddit_username>
+    REDDIT_PASSWORD=<your_reddit_password>
+    GROQ_API_KEY=<your_groq_api_key>
+
+Run the bot:
+
+python reddit_bot.py
